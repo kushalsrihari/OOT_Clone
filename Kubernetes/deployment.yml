@@ -15,7 +15,7 @@ spec:
         app: ott-app
     spec:
       containers:
-      - name: netflix-app
+      - name: ott-app
         image: kushalsrihari/ott:latest
         ports:
         - containerPort: 80
